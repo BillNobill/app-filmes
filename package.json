@@ -1,0 +1,11 @@
+{
+  "name": "app-filmes",
+  "version": "1.0.0",
+  "description": "Aplicativo para gerenciamento de filmes assistidos, com sistema de notas e avalia\u251c\u00ba\u251c\u00c1es.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BillNobill",
+  "license": "MIT"
+}
