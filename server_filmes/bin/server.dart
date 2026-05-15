@@ -22,6 +22,7 @@ Map<String, Object> corsHeader = {
       'content-type, authorization, accept, access-control-allow-origin',
   'Access-Control-Allow-Credentials': 'true'
 };
+
 final corsMidleware = createMiddleware(requestHandler: (Request request) {
   return (request.method == 'OPTIONS')
       ? Response.ok('', headers: corsHeader)
